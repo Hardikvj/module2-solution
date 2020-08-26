@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+
+p{
+	background: gray;
+	border: 2px solid black;
+	margin: 4px;
+}
+
+#common{
+	float: right;
+	position: relative;
+	border: 2px solid black;
+	margin-top: 0px;
+	background: green;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.box1{
+	width: 33.33%;
+	float: left;
+}
+
+.box2{
+	width: 33.33%;
+	float: left;
+}
+
+.box3{
+	width: 33.33%;
+	float: left;
+}
+
+#test{
+	padding: 20px;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		width: 100%;
+	}
+}
